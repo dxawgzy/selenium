@@ -20,7 +20,7 @@ class MailTest(unittest.TestCase):
         driver.get(self.base_url + "/")
         driver.find_element_by_id("idPlaceholder").click()
         driver.find_element_by_id("idInput").clear()
-        driver.find_element_by_id("idInput").send_keys("gzy833231819")
+        driver.find_element_by_id("idInput").send_keys("邮箱")
         driver.find_element_by_id("pwdInput").click()
         driver.find_element_by_id("pwdInput").clear()
         driver.find_element_by_id("pwdInput").send_keys("密码")
@@ -28,7 +28,7 @@ class MailTest(unittest.TestCase):
     """
         driver.find_element_by_css_selector("#_mail_component_51_51 > span.oz0").click()
         driver.find_element_by_css_selector("input.nui-editableAddr-ipt").clear()
-        driver.find_element_by_css_selector("input.nui-editableAddr-ipt").send_keys("igis_gzy@fiberhome.com")
+        driver.find_element_by_css_selector("input.nui-editableAddr-ipt").send_keys("邮箱")
         driver.find_element_by_id("_mail_input_3_204").click()
         driver.find_element_by_css_selector("#_mail_input_3_204 > input.nui-ipt-input").clear()
         driver.find_element_by_css_selector("#_mail_input_3_204 > input.nui-ipt-input").send_keys(u"测试")
