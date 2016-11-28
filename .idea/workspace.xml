@@ -2,87 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72fb9915-f0cd-4bdc-8836-72ad7d71c4aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Volumes/AttachVolume.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Images/CreateImage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Instances/CreateInstance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Networks/CreateNetwork.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Networks/CreateRouter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Images/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Instances/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/allcases/Networks/__init__.py" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\common\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\common\exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\selenium.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\android\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\android\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\blackberry\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\blackberry\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\chrome\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\chrome\options.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\chrome\remote_connection.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\chrome\service.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\chrome\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\action_chains.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\alert.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\by.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\desired_capabilities.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\html5\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\html5\application_cache.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\keys.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\proxy.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\touch_actions.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\common\utils.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\edge\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\edge\options.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\edge\service.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\edge\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\amd64\x_ignore_nofocus.so" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\extension_connection.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\firefox_binary.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\firefox_profile.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\service.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\webdriver.xpi" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\webdriver_prefs.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\firefox\x86\x_ignore_nofocus.so" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\ie\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\ie\service.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\ie\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\opera\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\opera\options.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\opera\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\phantomjs\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\phantomjs\service.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\phantomjs\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\command.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\errorhandler.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\file_detector.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\mobile.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\remote_connection.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\switch_to.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\utils.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\remote\webelement.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\safari\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\safari\service.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\safari\webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\abstract_event_listener.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\color.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\event_firing_webdriver.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\events.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\expected_conditions.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\select.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\ui.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\selenium\webdriver\support\wait.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\webControl\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="E:\python\selenium\webControl\.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/config.cfg" afterPath="$PROJECT_DIR$/webControl/config.cfg" />
+      <change type="DELETED" beforePath="E:\python\selenium\2016-10-27-16_03_57_report.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\python\selenium\2016-10-28-16_11_00_report.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\python\selenium\2016-11-01-12_28_03_report.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\python\selenium\2016-11-01-15_23_39_report.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\python\selenium\2016-11-01-15_37_59_report.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/testRunner.py" afterPath="$PROJECT_DIR$/webControl/testRunner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="selenium.iws" />
@@ -165,8 +90,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.354839" vertical-offset="0" max-vertical-offset="779">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state vertical-scroll-proportion="-6.7419353" vertical-offset="0" max-vertical-offset="779">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -175,8 +100,8 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webControl/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="798">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,21 +120,11 @@
       <file leaf-file-name="basecontrol.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webControl/basecontrol.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2999" max-vertical-offset="3534">
-              <caret line="170" column="20" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2988" max-vertical-offset="3534">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateInstance.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webControl/allcases/Instances/CreateInstance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="152">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -277,7 +192,6 @@
         <option value="$PROJECT_DIR$/2016-11-01-15_23_39_report.html" />
         <option value="$PROJECT_DIR$/2016-11-01-12_28_03_report.html" />
         <option value="$PROJECT_DIR$/2016-11-01-15_37_59_report.html" />
-        <option value="$PROJECT_DIR$/webControl/testRunner.py" />
         <option value="$PROJECT_DIR$/webControl/ut.py" />
         <option value="$PROJECT_DIR$/baidu.py" />
         <option value="$PROJECT_DIR$/webControl/basecontrol.py" />
@@ -291,6 +205,7 @@
         <option value="$PROJECT_DIR$/webControl/allcases/Images/CreateImage.py" />
         <option value="$PROJECT_DIR$/webControl/allcases/Volumes/AttachVolume.py" />
         <option value="$PROJECT_DIR$/webControl/config.cfg" />
+        <option value="$PROJECT_DIR$/webControl/testRunner.py" />
       </list>
     </option>
   </component>
@@ -372,6 +287,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="allcases" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -416,73 +349,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Snapshots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="allcases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Networks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="allcases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Instances" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selenium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="allcases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -492,7 +359,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tempest-mitaka-plus" />
@@ -509,6 +376,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\python\selenium" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\selenium\webControl\results" />
+      <recent name="E:\python\selenium\webControl\pictures" />
     </key>
   </component>
   <component name="RunManager" selected="Python.testRunner">
@@ -868,7 +739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1479472067141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change">
+      <created>1480314834132</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1480314834132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -896,26 +773,26 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26040268" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36394557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36394557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -975,17 +852,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016-10-28-16_11_00_report.html">
+    <entry file="file://$PROJECT_DIR$/webControl/results/2016-10-28-16_11_00_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.5" vertical-offset="1767" max-vertical-offset="5149">
           <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2016-10-27-16_03_57_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11003861" vertical-offset="0" max-vertical-offset="6194">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1024,14 +894,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016-11-01-15_23_39_report.html">
+    <entry file="file://$PROJECT_DIR$/webControl/results/2016-11-01-15_23_39_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25675675" vertical-offset="3648" max-vertical-offset="5586">
           <caret line="199" column="0" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016-11-01-12_28_03_report.html">
+    <entry file="file://$PROJECT_DIR$/webControl/results/2016-11-01-12_28_03_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11003861" vertical-offset="3363" max-vertical-offset="5795">
           <caret line="180" column="42" selection-start-line="180" selection-start-column="42" selection-end-line="180" selection-end-column="42" />
@@ -1085,10 +955,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016-11-01-15_37_59_report.html">
+    <entry file="file://$PROJECT_DIR$/webControl/results/2016-11-01-15_37_59_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.857143" vertical-offset="4710" max-vertical-offset="5681">
           <caret line="258" column="14" selection-start-line="258" selection-start-column="14" selection-end-line="258" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,24 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webControl/basecontrol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2999" max-vertical-offset="3534">
-          <caret line="170" column="20" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="20" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webControl/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webControl/locators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="627">
@@ -1307,8 +1160,34 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.354839" vertical-offset="0" max-vertical-offset="779">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state vertical-scroll-proportion="-6.7419353" vertical-offset="0" max-vertical-offset="779">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webControl/basecontrol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2988" max-vertical-offset="3534">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webControl/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="798">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webControl/results/2016-10-27-16_03_57_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11003861" vertical-offset="0" max-vertical-offset="6194">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>

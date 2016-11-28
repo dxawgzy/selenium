@@ -35,7 +35,7 @@ if __name__ == '__main__':
     #取当前时间
     now_time = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
     #定义个报告存放路径，支持相对路径。
-    filename = 'E:\\python\\selenium\\'+now_time+'_report.html'
+    filename = 'E:\\python\\selenium\\webControl\\results\\'+now_time+'_report.html'
     fp = file(filename, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(
         stream=fp,
