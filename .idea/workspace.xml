@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72fb9915-f0cd-4bdc-8836-72ad7d71c4aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/allcases/Snapshots/CreateSnapshot.py" afterPath="$PROJECT_DIR$/webControl/allcases/Snapshots/CreateSnapshot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/allcases/Volumes/CreateVolume.py" afterPath="$PROJECT_DIR$/webControl/allcases/Volumes/CreateVolume.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewTest.py" afterPath="$PROJECT_DIR$/NewTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/base.py" afterPath="$PROJECT_DIR$/webControl/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/basecontrol.py" afterPath="$PROJECT_DIR$/webControl/basecontrol.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/config.cfg" afterPath="$PROJECT_DIR$/webControl/config.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/locators.py" afterPath="$PROJECT_DIR$/webControl/locators.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/testRunner.py" afterPath="$PROJECT_DIR$/webControl/testRunner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webControl/ut.py" afterPath="$PROJECT_DIR$/webControl/ut.py" />
+    <list default="true" id="72fb9915-f0cd-4bdc-8836-72ad7d71c4aa" name="Default" comment="change">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webControl/2016-11-01-15_37_59_report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="selenium.iws" />
@@ -70,7 +62,7 @@
       <file leaf-file-name="testRunner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webControl/testRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="1026">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
               <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#15#36#0" expanded="true" />
@@ -82,7 +74,7 @@
       <file leaf-file-name="ut.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webControl/ut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2389" max-vertical-offset="3439">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3439">
               <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
@@ -91,11 +83,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2016-11-01-15_37_59_report.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webControl/2016-11-01-15_37_59_report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="27.821428" vertical-offset="2109" max-vertical-offset="5681">
+              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#1;n#tr#4;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webControl/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03198653" vertical-offset="0" max-vertical-offset="594">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webControl/config.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="665">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="15" />
+            <state vertical-scroll-proportion="-7.967742" vertical-offset="0" max-vertical-offset="665">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -126,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateVolume.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateVolume.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webControl/allcases/Volumes/CreateVolume.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8037866" vertical-offset="312" max-vertical-offset="893">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="893">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -192,6 +206,7 @@
         <option value="$PROJECT_DIR$/webControl/ut.py" />
         <option value="$PROJECT_DIR$/webControl/2016-11-01-15_37_59_report.html" />
         <option value="$PROJECT_DIR$/webControl/basecontrol.py" />
+        <option value="$PROJECT_DIR$/webControl/__init__.py" />
       </list>
     </option>
   </component>
@@ -725,7 +740,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480316172929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change">
+      <created>1481512231777</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1481512231777</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -750,11 +771,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="83" width="1026" height="754" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21118012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21118012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26003212" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,7 +786,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26003212" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -801,24 +822,12 @@
           <line>228</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/webControl/locators.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webControl/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033989266" vertical-offset="0" max-vertical-offset="559">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python27/Lib/unittest/result.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="3648">
@@ -1113,13 +1122,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webControl/2016-11-01-15_37_59_report.html">
+    <entry file="file://$PROJECT_DIR$/webControl/basecontrol.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1482" max-vertical-offset="5681">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="3401">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#1;n#tr#4;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#24#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webControl/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webControl/allcases/Volumes/CreateVolume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="893">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webControl/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="15" />
+        <state vertical-scroll-proportion="-7.967742" vertical-offset="0" max-vertical-offset="665">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1162,28 +1187,20 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webControl/basecontrol.py">
+    <entry file="file://$PROJECT_DIR$/webControl/2016-11-01-15_37_59_report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="3401">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state vertical-scroll-proportion="27.821428" vertical-offset="2109" max-vertical-offset="5681">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#1;n#tr#4;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webControl/base.py">
+    <entry file="file://$PROJECT_DIR$/webControl/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webControl/allcases/Volumes/CreateVolume.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8037866" vertical-offset="312" max-vertical-offset="893">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.03198653" vertical-offset="0" max-vertical-offset="594">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
