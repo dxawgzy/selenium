@@ -29,4 +29,8 @@ class CreateSnapshot(unittest.TestCase, Snapshots):
             time.sleep(1)
 
     def tearDown(self):
-        pass
+        # pass
+        self.control.quit()
+        self.assertEqual([], self.verificationErrors)
+
+

@@ -5,10 +5,10 @@ import os
 sys.path.append(os.path.join('..', '..'))  #用于导入上两级目录中的模块
 from basecontrol import BaseControl as _b
 from base import Config as _c
-from base import CloudDatabases
+from base import Volumes
 from selenium.webdriver.common.keys import Keys
 
-class CreateDatabase(unittest.TestCase, CloudDatabases):
+class CreateVolume(unittest.TestCase, Volumes):
     name_des = [
         'jue-1',
         'jue-2',

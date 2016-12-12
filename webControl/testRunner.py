@@ -40,7 +40,8 @@ if __name__ == '__main__':
     runner = HTMLTestRunner.HTMLTestRunner(
         stream=fp,
         title=u'OpenStack Horizon测试报告',
-        description=u'用例执行结果：')
+        description=u'用例执行结果：'
+        )
     #执行测试用例
     runner.run(suite)
 

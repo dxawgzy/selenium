@@ -121,4 +121,55 @@ if __name__ == '__main__':
     runner.run(suite)
 
 
+import unittest
+from basecontrol import BaseControl as _b
+from base import Config as _c
+from base import Volumes
+
+class CreateVolume(unittest.TestCase, Volumes):
+
+    def setUp(self):
+        self.c = _c()
+        self.driver = _b(self.c.server.url)
+        self.driver.login(self.c.user.user, self.c.user.passwd)
+        self.driver.click_link_by_text('存储')
+        self.driver.click_link_by_text('云硬盘')
+
+    def test_create_volume(self, name):
+        self.driver.click_button_by_text('新建')
+        self.driver.fill_input_after_label(u'名称*', name)
+        self.driver.fill_input_after_label(
+            u'描述', u'自动化创建', self.driver.TEXTAREA)
+        self.driver.fill_input_after_label(u'容量（GB）*', '1')
+        self.driver.choice_select_after_label(u'云硬盘类型', 'sas')
+        self.driver.choice_select_after_label(u'新建方式', u'没有源，空白云硬盘')
+        self.driver.click_button_by_text('确定')
+        self.assertEqual(self.driver.find_element_by_text('云硬盘'), name)
+
+    def tearDown(self):
+        self.driver.quit()
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+from base import Config as _c
+
+if __name__ == '__main__':
+    config = _c()
+    suite = unittest.TestSuite()
+    test_cases = config.server.cases.split(',')  #针对allcases下的文件夹
+
+    for case in test_cases:   #遍历每一个文件夹，每个cases表示allcases下的一个文件夹
+        # you will find all child class in the /allcases, it must the same as
+        # the father class in the base.py
+        # case_cls = (    #得到每个py文件中的所有类，一个类即为一个case
+        #     [cls.__name__ for cls in vars()[BASE_CLS[cases]].__subclasses__()])
+        # for one_case in case_cls:     #遍历一个py文件中的所有类
+        #     case_model = '.'.join([cases, one_case, one_case])
+        #     test_name =\
+        #         [tn for tn in dir(eval(case_model)) if 'test_' in tn]
+        #     suite.addTest(eval(case_model+'("' + test_name[0] +'")'))
+
+        suite =  unittest.TestLoader().loadTestsFromTestCase(case)
 

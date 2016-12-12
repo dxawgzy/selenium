@@ -91,46 +91,33 @@ class BaseControl(object):
         button_element = WebDriverWait(
             self.driver, int(self.config.server.waittimes)).until(lambda driver:
             driver.find_elements_by_link_text(type_link))
-
         button_element[index].click()
 
     def fill_input_after_label(self, label_text, text, input_type = 'input'):
-        # <label> write something<\label>
-        # <input type=blah>
-
         label_locator = CL.label_xpath %label_text
-
         input_element = WebDriverWait(
             self.driver, int(self.config.server.waittimes)).until(lambda driver:
             driver.find_element_by_xpath(
                                 label_locator + '/following::' + input_type))
-
         input_element.send_keys(text)
 
     def choice_select_after_label(self, label_text, option):
-        # <label> write something<\label>
-        # <select >
         label_locator = CL.label_xpath %label_text
-
         select_element = WebDriverWait(
             self.driver, int(self.config.server.waittimes)).until(lambda driver:
             driver.find_element_by_xpath(
                                 label_locator + '/following::select'))
-
         option_element = WebDriverWait(
             select_element, int(self.config.server.waittimes)).until(
             lambda driver: driver.find_element_by_xpath(
                 CL.option_xpath %option))
-
         option_element.click()
 
     def _wait_element_by_text(self, text, position = ''):
-
         def web_drivers_find(driver):
             result = []
             locators= filter(lambda locator:
                 locator.endswith('_xpath'), dir(CL))
-
             for locator in locators:
                 if not position:
                     locator = getattr(CL, locator) %text
@@ -178,3 +165,9 @@ class BaseControl(object):
     def verify_text(self, find_target):
         time.sleep(5)
         return find_target in self.driver.page_source
+
+    def quit(self):
+        pass
+
+    def find_element_by_text(self,name):
+        pass
